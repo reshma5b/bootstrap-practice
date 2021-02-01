@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" 
+	content="width=device-width,initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<style>
+		.row-border{
+			border:1px solid red;
+		}
+		.col-border{
+			border:1px dotted blue;
+		}
+	</style>
+</head>
+<body class="container">
+	<div class="row justify-content-center">
+		<div class="col-4">
+			<form>
+				<input type="text" placeholder="Name" class="form-control" />
+				<input type="" placeholder="email" class="form-control" required="required " /><br>
+				<textarea placeholder="Address" class="form-control">address </textarea> <br>
+				<labels> <input type="radio" name="gender" class="form-input-check"/>male</labels>
+
+				<label>  <input type="radio" name="gender" class="form-input-check" />female</labels><br>
+           </label><br>
+            <label><input type="checkbox" class="form-input-check"/> Car
+			<input type="range" class="form-range" min="0" max="10" value="2"/>
+			<select class="form-select">
+				<option selected disabled value=""> select city</option>
+				<option value="rjy">rjy</option>
+				<option value=" hyd">hyd</option>
+				<option value="vizag">vizag</option>
+			</select><br>
+			<input type="file" class="form-control-file" multiple/> <br>
+    <input type="submit" value="register"class="btn btn-primary"/>
+     </form>
+		</div>
+	</div>
+</body>
+</html>
